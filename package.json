@@ -1,0 +1,36 @@
+{
+  "name": "@stdlib/stats-base-dists-rayleigh",
+  "version": "0.0.0",
+  "description": "Rayleigh distribution.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/stats-base-dists-rayleigh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "standard",
+    "library",
+    "std",
+    "lib",
+    "statistics",
+    "stats",
+    "probability",
+    "distribution",
+    "dist",
+    "rayleigh",
+    "univariate",
+    "continuous"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
