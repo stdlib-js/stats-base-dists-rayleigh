@@ -88,6 +88,7 @@ The namespace contains the following functions for calculating distribution prop
 -   <span class="signature">[`median( sigma )`][@stdlib/stats/base/dists/rayleigh/median]</span><span class="delimiter">: </span><span class="description">Rayleigh distribution median.</span>
 -   <span class="signature">[`mode( sigma )`][@stdlib/stats/base/dists/rayleigh/mode]</span><span class="delimiter">: </span><span class="description">Rayleigh distribution mode.</span>
 -   <span class="signature">[`skewness( sigma )`][@stdlib/stats/base/dists/rayleigh/skewness]</span><span class="delimiter">: </span><span class="description">Rayleigh distribution skewness.</span>
+-   <span class="signature">[`stdev( sigma )`][@stdlib/stats/base/dists/rayleigh/stdev]</span><span class="delimiter">: </span><span class="description">Rayleigh distribution standard deviation.</span>
 -   <span class="signature">[`variance( sigma )`][@stdlib/stats/base/dists/rayleigh/variance]</span><span class="delimiter">: </span><span class="description">Rayleigh distribution variance.</span>
 
 </div>
@@ -232,6 +233,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [@stdlib/stats/base/dists/rayleigh/mode]: https://github.com/stdlib-js/stats-base-dists-rayleigh-mode
 
 [@stdlib/stats/base/dists/rayleigh/skewness]: https://github.com/stdlib-js/stats-base-dists-rayleigh-skewness
+
+[@stdlib/stats/base/dists/rayleigh/stdev]: https://github.com/stdlib-js/stats-base-dists-rayleigh-stdev
 
 [@stdlib/stats/base/dists/rayleigh/variance]: https://github.com/stdlib-js/stats-base-dists-rayleigh-variance
 
