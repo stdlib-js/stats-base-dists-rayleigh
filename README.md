@@ -18,44 +18,47 @@ limitations under the License.
 
 -->
 
+
+<details>
+  <summary>
+    About stdlib...
+  </summary>
+  <p>We believe in a future in which the web is a preferred environment for numerical computation. To help realize this future, we've built stdlib. stdlib is a standard library, with an emphasis on numerical and scientific computation, written in JavaScript (and C) for execution in browsers and in Node.js.</p>
+  <p>The library is fully decomposable, being architected in such a way that you can swap out and mix and match APIs and functionality to cater to your exact preferences and use cases.</p>
+  <p>When you use stdlib, you can be absolutely certain that you are using the most thorough, rigorous, well-written, studied, documented, tested, measured, and high-quality code out there.</p>
+  <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
+</details>
+
 # Rayleigh
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Rayleigh distribution.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-rayleigh
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-rayleigh = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var rayleigh = require( 'path/to/vendor/umd/stats-base-dists-rayleigh/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.rayleigh;
-})();
-</script>
+var rayleigh = require( '@stdlib/stats-base-dists-rayleigh' );
 ```
 
 #### rayleigh
@@ -136,21 +139,11 @@ var y = dist.pdf( 0.8 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var rayleigh = require( '@stdlib/stats-base-dists-rayleigh' );
 
 console.log( objectKeys( rayleigh ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -204,8 +197,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-base-dists-rayleigh.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-base-dists-rayleigh
 
-[test-image]: https://github.com/stdlib-js/stats-base-dists-rayleigh/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/stats-base-dists-rayleigh/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/stats-base-dists-rayleigh/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/stats-base-dists-rayleigh/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-base-dists-rayleigh/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-base-dists-rayleigh?branch=main
@@ -238,35 +231,35 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/rayleigh/ctor]: https://github.com/stdlib-js/stats-base-dists-rayleigh-ctor/tree/umd
+[@stdlib/stats/base/dists/rayleigh/ctor]: https://github.com/stdlib-js/stats-base-dists-rayleigh-ctor
 
-[@stdlib/stats/base/dists/rayleigh/entropy]: https://github.com/stdlib-js/stats-base-dists-rayleigh-entropy/tree/umd
+[@stdlib/stats/base/dists/rayleigh/entropy]: https://github.com/stdlib-js/stats-base-dists-rayleigh-entropy
 
-[@stdlib/stats/base/dists/rayleigh/kurtosis]: https://github.com/stdlib-js/stats-base-dists-rayleigh-kurtosis/tree/umd
+[@stdlib/stats/base/dists/rayleigh/kurtosis]: https://github.com/stdlib-js/stats-base-dists-rayleigh-kurtosis
 
-[@stdlib/stats/base/dists/rayleigh/mean]: https://github.com/stdlib-js/stats-base-dists-rayleigh-mean/tree/umd
+[@stdlib/stats/base/dists/rayleigh/mean]: https://github.com/stdlib-js/stats-base-dists-rayleigh-mean
 
-[@stdlib/stats/base/dists/rayleigh/median]: https://github.com/stdlib-js/stats-base-dists-rayleigh-median/tree/umd
+[@stdlib/stats/base/dists/rayleigh/median]: https://github.com/stdlib-js/stats-base-dists-rayleigh-median
 
-[@stdlib/stats/base/dists/rayleigh/mode]: https://github.com/stdlib-js/stats-base-dists-rayleigh-mode/tree/umd
+[@stdlib/stats/base/dists/rayleigh/mode]: https://github.com/stdlib-js/stats-base-dists-rayleigh-mode
 
-[@stdlib/stats/base/dists/rayleigh/skewness]: https://github.com/stdlib-js/stats-base-dists-rayleigh-skewness/tree/umd
+[@stdlib/stats/base/dists/rayleigh/skewness]: https://github.com/stdlib-js/stats-base-dists-rayleigh-skewness
 
-[@stdlib/stats/base/dists/rayleigh/stdev]: https://github.com/stdlib-js/stats-base-dists-rayleigh-stdev/tree/umd
+[@stdlib/stats/base/dists/rayleigh/stdev]: https://github.com/stdlib-js/stats-base-dists-rayleigh-stdev
 
-[@stdlib/stats/base/dists/rayleigh/variance]: https://github.com/stdlib-js/stats-base-dists-rayleigh-variance/tree/umd
+[@stdlib/stats/base/dists/rayleigh/variance]: https://github.com/stdlib-js/stats-base-dists-rayleigh-variance
 
-[@stdlib/stats/base/dists/rayleigh/cdf]: https://github.com/stdlib-js/stats-base-dists-rayleigh-cdf/tree/umd
+[@stdlib/stats/base/dists/rayleigh/cdf]: https://github.com/stdlib-js/stats-base-dists-rayleigh-cdf
 
-[@stdlib/stats/base/dists/rayleigh/logcdf]: https://github.com/stdlib-js/stats-base-dists-rayleigh-logcdf/tree/umd
+[@stdlib/stats/base/dists/rayleigh/logcdf]: https://github.com/stdlib-js/stats-base-dists-rayleigh-logcdf
 
-[@stdlib/stats/base/dists/rayleigh/logpdf]: https://github.com/stdlib-js/stats-base-dists-rayleigh-logpdf/tree/umd
+[@stdlib/stats/base/dists/rayleigh/logpdf]: https://github.com/stdlib-js/stats-base-dists-rayleigh-logpdf
 
-[@stdlib/stats/base/dists/rayleigh/mgf]: https://github.com/stdlib-js/stats-base-dists-rayleigh-mgf/tree/umd
+[@stdlib/stats/base/dists/rayleigh/mgf]: https://github.com/stdlib-js/stats-base-dists-rayleigh-mgf
 
-[@stdlib/stats/base/dists/rayleigh/pdf]: https://github.com/stdlib-js/stats-base-dists-rayleigh-pdf/tree/umd
+[@stdlib/stats/base/dists/rayleigh/pdf]: https://github.com/stdlib-js/stats-base-dists-rayleigh-pdf
 
-[@stdlib/stats/base/dists/rayleigh/quantile]: https://github.com/stdlib-js/stats-base-dists-rayleigh-quantile/tree/umd
+[@stdlib/stats/base/dists/rayleigh/quantile]: https://github.com/stdlib-js/stats-base-dists-rayleigh-quantile
 
 <!-- </toc-links> -->
 
