@@ -35,20 +35,32 @@ limitations under the License.
 
 > Rayleigh distribution.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-rayleigh
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import rayleigh from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { Rayleigh, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh@deno/mod.js';
+var rayleigh = require( '@stdlib/stats-base-dists-rayleigh' );
 ```
 
 #### rayleigh
@@ -109,7 +121,7 @@ The namespace contains a constructor function for creating a [Rayleigh][rayleigh
 <!-- </toc> -->
 
 ```javascript
-var Rayleigh = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh' ).Rayleigh;
+var Rayleigh = require( '@stdlib/stats-base-dists-rayleigh' ).Rayleigh;
 
 var dist = new Rayleigh( 2.0 );
 
@@ -130,10 +142,44 @@ var y = dist.pdf( 0.8 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import rayleigh from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh@deno/mod.js';
+var rayleigh = require( '@stdlib/stats-base-dists-rayleigh' );
 
-console.log( objectKeys( rayleigh ) );
+/*
+* The Rayleigh distribution can be used to model wind speeds.
+* Let's consider a scenario where we want to estimate various properties related to wind speeds.
+*/
+
+// Set the Rayleigh distribution parameter (scale parameter):
+var s = 10.0;
+
+// Calculate mean, variance, and standard deviation of the Rayleigh distribution:
+console.log( rayleigh.mean( s ) );
+// => ~12.533
+
+console.log( rayleigh.variance( s ) );
+// => ~42.920
+
+console.log( rayleigh.stdev( s ) );
+// => ~6.551
+
+// Evaluate the Probability Density Function (PDF) for a specific wind speed:
+var w = 15.0;
+console.log( rayleigh.pdf( w, s ) );
+// => ~0.049
+
+// Determine Cumulative Distribution Function (CDF) for wind speeds up to a certain value:
+var t = 15.0;
+console.log( rayleigh.cdf( t, s ) );
+// => ~0.675
+
+// Calculate the probability of wind speeds exceeding the threshold:
+var p = 1.0 - rayleigh.cdf( t, s );
+console.log( 'Probability of wind speeds exceeding ' + t + ' m/s:', p );
+
+// Find the wind speed at which there's a 70% chance it won't exceed using the Quantile function:
+var c = 0.7;
+console.log( rayleigh.quantile( c, s ) );
+// => ~15.518
 ```
 
 </section>
@@ -157,7 +203,7 @@ console.log( objectKeys( rayleigh ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -224,35 +270,35 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/rayleigh/ctor]: https://github.com/stdlib-js/stats-base-dists-rayleigh-ctor/tree/deno
+[@stdlib/stats/base/dists/rayleigh/ctor]: https://github.com/stdlib-js/stats-base-dists-rayleigh-ctor
 
-[@stdlib/stats/base/dists/rayleigh/entropy]: https://github.com/stdlib-js/stats-base-dists-rayleigh-entropy/tree/deno
+[@stdlib/stats/base/dists/rayleigh/entropy]: https://github.com/stdlib-js/stats-base-dists-rayleigh-entropy
 
-[@stdlib/stats/base/dists/rayleigh/kurtosis]: https://github.com/stdlib-js/stats-base-dists-rayleigh-kurtosis/tree/deno
+[@stdlib/stats/base/dists/rayleigh/kurtosis]: https://github.com/stdlib-js/stats-base-dists-rayleigh-kurtosis
 
-[@stdlib/stats/base/dists/rayleigh/mean]: https://github.com/stdlib-js/stats-base-dists-rayleigh-mean/tree/deno
+[@stdlib/stats/base/dists/rayleigh/mean]: https://github.com/stdlib-js/stats-base-dists-rayleigh-mean
 
-[@stdlib/stats/base/dists/rayleigh/median]: https://github.com/stdlib-js/stats-base-dists-rayleigh-median/tree/deno
+[@stdlib/stats/base/dists/rayleigh/median]: https://github.com/stdlib-js/stats-base-dists-rayleigh-median
 
-[@stdlib/stats/base/dists/rayleigh/mode]: https://github.com/stdlib-js/stats-base-dists-rayleigh-mode/tree/deno
+[@stdlib/stats/base/dists/rayleigh/mode]: https://github.com/stdlib-js/stats-base-dists-rayleigh-mode
 
-[@stdlib/stats/base/dists/rayleigh/skewness]: https://github.com/stdlib-js/stats-base-dists-rayleigh-skewness/tree/deno
+[@stdlib/stats/base/dists/rayleigh/skewness]: https://github.com/stdlib-js/stats-base-dists-rayleigh-skewness
 
-[@stdlib/stats/base/dists/rayleigh/stdev]: https://github.com/stdlib-js/stats-base-dists-rayleigh-stdev/tree/deno
+[@stdlib/stats/base/dists/rayleigh/stdev]: https://github.com/stdlib-js/stats-base-dists-rayleigh-stdev
 
-[@stdlib/stats/base/dists/rayleigh/variance]: https://github.com/stdlib-js/stats-base-dists-rayleigh-variance/tree/deno
+[@stdlib/stats/base/dists/rayleigh/variance]: https://github.com/stdlib-js/stats-base-dists-rayleigh-variance
 
-[@stdlib/stats/base/dists/rayleigh/cdf]: https://github.com/stdlib-js/stats-base-dists-rayleigh-cdf/tree/deno
+[@stdlib/stats/base/dists/rayleigh/cdf]: https://github.com/stdlib-js/stats-base-dists-rayleigh-cdf
 
-[@stdlib/stats/base/dists/rayleigh/logcdf]: https://github.com/stdlib-js/stats-base-dists-rayleigh-logcdf/tree/deno
+[@stdlib/stats/base/dists/rayleigh/logcdf]: https://github.com/stdlib-js/stats-base-dists-rayleigh-logcdf
 
-[@stdlib/stats/base/dists/rayleigh/logpdf]: https://github.com/stdlib-js/stats-base-dists-rayleigh-logpdf/tree/deno
+[@stdlib/stats/base/dists/rayleigh/logpdf]: https://github.com/stdlib-js/stats-base-dists-rayleigh-logpdf
 
-[@stdlib/stats/base/dists/rayleigh/mgf]: https://github.com/stdlib-js/stats-base-dists-rayleigh-mgf/tree/deno
+[@stdlib/stats/base/dists/rayleigh/mgf]: https://github.com/stdlib-js/stats-base-dists-rayleigh-mgf
 
-[@stdlib/stats/base/dists/rayleigh/pdf]: https://github.com/stdlib-js/stats-base-dists-rayleigh-pdf/tree/deno
+[@stdlib/stats/base/dists/rayleigh/pdf]: https://github.com/stdlib-js/stats-base-dists-rayleigh-pdf
 
-[@stdlib/stats/base/dists/rayleigh/quantile]: https://github.com/stdlib-js/stats-base-dists-rayleigh-quantile/tree/deno
+[@stdlib/stats/base/dists/rayleigh/quantile]: https://github.com/stdlib-js/stats-base-dists-rayleigh-quantile
 
 <!-- </toc-links> -->
 
