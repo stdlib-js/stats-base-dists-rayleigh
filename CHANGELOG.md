@@ -4,321 +4,25 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-31)
-
-<section class="packages">
-
-### Packages
-
-<section class="package" id="stats-base-dists-rayleigh-cdf-unreleased">
-
-#### [@stdlib/stats/base/dists/rayleigh/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/cdf)
-
-<details>
+## Unreleased (2025-05-19)
 
 <section class="features">
 
-##### Features
+### Features
 
+-   [`6443564`](https://github.com/stdlib-js/stdlib/commit/6443564291cf967569bbc0a9f2d918b59bdfc295) - add C implementation for `stats/base/dists/rayleigh/median` [(#4027)](https://github.com/stdlib-js/stdlib/pull/4027)
+-   [`38bb02a`](https://github.com/stdlib-js/stdlib/commit/38bb02a8b6015ae6557baf0906330529bf76f64e) - add C implementation of `stats/base/dists/rayleigh/logpdf` [(#3966)](https://github.com/stdlib-js/stdlib/pull/3966)
+-   [`ed04d90`](https://github.com/stdlib-js/stdlib/commit/ed04d90cd3540e5a3b0b5cb49f623c62935edd1e) - add C implementation for `stats/base/dists/rayleigh/mode` [(#4024)](https://github.com/stdlib-js/stdlib/pull/4024)
+-   [`9d270ad`](https://github.com/stdlib-js/stdlib/commit/9d270ad8299ceb0723b1b805e738fbe19faa6520) - add C implementation for `stats/base/dists/rayleigh/mean` [(#4026)](https://github.com/stdlib-js/stdlib/pull/4026)
+-   [`c0d9c76`](https://github.com/stdlib-js/stdlib/commit/c0d9c760c9657e28d6b1d3daf5013708a928ae6c) - add C implementation `stats/base/dists/rayleigh/pdf` [(#3945)](https://github.com/stdlib-js/stdlib/pull/3945)
+-   [`3a05645`](https://github.com/stdlib-js/stdlib/commit/3a05645a2054675503b44dffb2f6817298bc9bd9) - add C implementation of `stats/base/dists/rayleigh/logcdf` [(#3957)](https://github.com/stdlib-js/stdlib/pull/3957)
+-   [`c242bc2`](https://github.com/stdlib-js/stdlib/commit/c242bc2a4e128472277ea8545c6811ea2cbbd736) - add C implementation for `stats/base/dists/rayleigh/variance` [(#3990)](https://github.com/stdlib-js/stdlib/pull/3990)
+-   [`4c46667`](https://github.com/stdlib-js/stdlib/commit/4c466676e6dc28dc112a042096f94286f2e599a5) - add C implementation of `stats/base/dists/rayleigh/entropy` [(#3956)](https://github.com/stdlib-js/stdlib/pull/3956)
 -   [`d7f5b56`](https://github.com/stdlib-js/stdlib/commit/d7f5b56fc072abf167bd5eb5e2163833715f2211) - add C implementation of `stats/base/dists/rayleigh/cdf` [(#3931)](https://github.com/stdlib-js/stdlib/pull/3931)
 
 </section>
 
 <!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3798](https://github.com/stdlib-js/stdlib/issues/3798)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-entropy-unreleased">
-
-#### [@stdlib/stats/base/dists/rayleigh/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/entropy)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`4c46667`](https://github.com/stdlib-js/stdlib/commit/4c466676e6dc28dc112a042096f94286f2e599a5) - add C implementation of `stats/base/dists/rayleigh/entropy` [(#3956)](https://github.com/stdlib-js/stdlib/pull/3956)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3799](https://github.com/stdlib-js/stdlib/issues/3799)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-logcdf-unreleased">
-
-#### [@stdlib/stats/base/dists/rayleigh/logcdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/logcdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3a05645`](https://github.com/stdlib-js/stdlib/commit/3a05645a2054675503b44dffb2f6817298bc9bd9) - add C implementation of `stats/base/dists/rayleigh/logcdf` [(#3957)](https://github.com/stdlib-js/stdlib/pull/3957)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3801](https://github.com/stdlib-js/stdlib/issues/3801)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-logpdf-unreleased">
-
-#### [@stdlib/stats/base/dists/rayleigh/logpdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/logpdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`38bb02a`](https://github.com/stdlib-js/stdlib/commit/38bb02a8b6015ae6557baf0906330529bf76f64e) - add C implementation of `stats/base/dists/rayleigh/logpdf` [(#3966)](https://github.com/stdlib-js/stdlib/pull/3966)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3802](https://github.com/stdlib-js/stdlib/issues/3802)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-mean-unreleased">
-
-#### [@stdlib/stats/base/dists/rayleigh/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/mean)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`9d270ad`](https://github.com/stdlib-js/stdlib/commit/9d270ad8299ceb0723b1b805e738fbe19faa6520) - add C implementation for `stats/base/dists/rayleigh/mean` [(#4026)](https://github.com/stdlib-js/stdlib/pull/4026)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3803](https://github.com/stdlib-js/stdlib/issues/3803)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-median-unreleased">
-
-#### [@stdlib/stats/base/dists/rayleigh/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/median)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`6443564`](https://github.com/stdlib-js/stdlib/commit/6443564291cf967569bbc0a9f2d918b59bdfc295) - add C implementation for `stats/base/dists/rayleigh/median` [(#4027)](https://github.com/stdlib-js/stdlib/pull/4027)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3804](https://github.com/stdlib-js/stdlib/issues/3804)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-mode-unreleased">
-
-#### [@stdlib/stats/base/dists/rayleigh/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/mode)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ed04d90`](https://github.com/stdlib-js/stdlib/commit/ed04d90cd3540e5a3b0b5cb49f623c62935edd1e) - add C implementation for `stats/base/dists/rayleigh/mode` [(#4024)](https://github.com/stdlib-js/stdlib/pull/4024)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3806](https://github.com/stdlib-js/stdlib/issues/3806)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-pdf-unreleased">
-
-#### [@stdlib/stats/base/dists/rayleigh/pdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/pdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`c0d9c76`](https://github.com/stdlib-js/stdlib/commit/c0d9c760c9657e28d6b1d3daf5013708a928ae6c) - add C implementation `stats/base/dists/rayleigh/pdf` [(#3945)](https://github.com/stdlib-js/stdlib/pull/3945)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3807](https://github.com/stdlib-js/stdlib/issues/3807)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-variance-unreleased">
-
-#### [@stdlib/stats/base/dists/rayleigh/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/variance)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`c242bc2`](https://github.com/stdlib-js/stdlib/commit/c242bc2a4e128472277ea8545c6811ea2cbbd736) - add C implementation for `stats/base/dists/rayleigh/variance` [(#3990)](https://github.com/stdlib-js/stdlib/pull/3990)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3811](https://github.com/stdlib-js/stdlib/issues/3811)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="issues">
 
@@ -332,28 +36,13 @@ A total of 9 issues were closed in this release:
 
 <!-- /.issues -->
 
-<section class="contributors">
-
-### Contributors
-
-A total of 5 people contributed to this release. Thank you to the following contributors:
-
--   Aayush Khanna
--   Philipp Burckhardt
--   Prashant Kumar Yadav
--   Vinit Pandit
--   ekambains
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`911e179`](https://github.com/stdlib-js/stdlib/commit/911e1793885aced96a177f2ea54300503b2c2a26) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
 -   [`e61b1de`](https://github.com/stdlib-js/stdlib/commit/e61b1dee3334bacf30d213de5b5f1c7868c0753b) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
 -   [`b9a2014`](https://github.com/stdlib-js/stdlib/commit/b9a2014b1181d30f86aa489ba90ad1f892ade8e8) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
@@ -383,6 +72,23 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 6 people contributed to this release. Thank you to the following contributors:
+
+-   Aayush Khanna
+-   Karan Anand
+-   Philipp Burckhardt
+-   Prashant Kumar Yadav
+-   Vinit Pandit
+-   ekambains
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -390,27 +96,6 @@ A total of 5 people contributed to this release. Thank you to the following cont
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)
-
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Jaimin Godhani
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -427,6 +112,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Jaimin Godhani
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -446,26 +144,6 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-14)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -481,6 +159,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -489,557 +179,15 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ## 0.1.0 (2023-09-24)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="stats-base-dists-rayleigh-v0.1.0">
-
-#### [@stdlib/stats/base/dists/rayleigh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-cdf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/rayleigh/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/cdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-ctor-v0.1.0">
-
-#### [@stdlib/stats/base/dists/rayleigh/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/ctor)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-entropy-v0.1.0">
-
-#### [@stdlib/stats/base/dists/rayleigh/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/entropy)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-kurtosis-v0.1.0">
-
-#### [@stdlib/stats/base/dists/rayleigh/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/kurtosis)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-logcdf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/rayleigh/logcdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/logcdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-logpdf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/rayleigh/logpdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/logpdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-mean-v0.1.0">
-
-#### [@stdlib/stats/base/dists/rayleigh/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/mean)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-median-v0.1.0">
-
-#### [@stdlib/stats/base/dists/rayleigh/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/median)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-mgf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/rayleigh/mgf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/mgf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-mode-v0.1.0">
-
-#### [@stdlib/stats/base/dists/rayleigh/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/mode)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-pdf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/rayleigh/pdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/pdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-quantile-v0.1.0">
-
-#### [@stdlib/stats/base/dists/rayleigh/quantile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/quantile)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-skewness-v0.1.0">
-
-#### [@stdlib/stats/base/dists/rayleigh/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/skewness)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-stdev-v0.1.0">
-
-#### [@stdlib/stats/base/dists/rayleigh/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/stdev)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-variance-v0.1.0">
-
-#### [@stdlib/stats/base/dists/rayleigh/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/variance)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -1052,18 +200,6 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -1081,6 +217,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
