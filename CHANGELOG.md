@@ -4,12 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-19)
+## Unreleased (2025-09-01)
 
 <section class="features">
 
 ### Features
 
+-   [`fd9994f`](https://github.com/stdlib-js/stdlib/commit/fd9994fd26cb5d2e69203bae3afdb89ec278d11b) - add C implementation for `@stdlib/stats-base/dists/rayleigh/mgf` [(#4298)](https://github.com/stdlib-js/stdlib/pull/4298)
+-   [`7165023`](https://github.com/stdlib-js/stdlib/commit/71650232e0a0f0cc55ba1d48ca40501cdeb90e36) - add C implementation for `@stdlib/stats-base/dists/rayleigh/quantile` [(#4333)](https://github.com/stdlib-js/stdlib/pull/4333)
+-   [`927131e`](https://github.com/stdlib-js/stdlib/commit/927131e46570839ed908c96af4da0e5d230300c5) - add C implementation for `@stdlib/stats-base/dists/rayleigh/kurtosis` [(#4301)](https://github.com/stdlib-js/stdlib/pull/4301)
+-   [`7042a3e`](https://github.com/stdlib-js/stdlib/commit/7042a3e7b52b18fbdf77404ca63945cc0a710710) - add C implementation for `stats/base/dists/rayleigh/stdev` [(#4314)](https://github.com/stdlib-js/stdlib/pull/4314)
+-   [`84d2f1d`](https://github.com/stdlib-js/stdlib/commit/84d2f1df9be56b3186328c39457894b84712e844) - add C implementation for `stats/base/dists/rayleigh/skewness` [(#4290)](https://github.com/stdlib-js/stdlib/pull/4290)
 -   [`6443564`](https://github.com/stdlib-js/stdlib/commit/6443564291cf967569bbc0a9f2d918b59bdfc295) - add C implementation for `stats/base/dists/rayleigh/median` [(#4027)](https://github.com/stdlib-js/stdlib/pull/4027)
 -   [`38bb02a`](https://github.com/stdlib-js/stdlib/commit/38bb02a8b6015ae6557baf0906330529bf76f64e) - add C implementation of `stats/base/dists/rayleigh/logpdf` [(#3966)](https://github.com/stdlib-js/stdlib/pull/3966)
 -   [`ed04d90`](https://github.com/stdlib-js/stdlib/commit/ed04d90cd3540e5a3b0b5cb49f623c62935edd1e) - add C implementation for `stats/base/dists/rayleigh/mode` [(#4024)](https://github.com/stdlib-js/stdlib/pull/4024)
@@ -24,13 +29,24 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`541c34e`](https://github.com/stdlib-js/stdlib/commit/541c34e7613e29e855b192a62f4fea0368c362ed) - remove unused `pi` and `eps` dependencies from `rayleigh/mode` manifest
+-   [`8070167`](https://github.com/stdlib-js/stdlib/commit/80701670fb83e7ef33abec5b14565bef540964a5) - use static qualifier for constant
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="issues">
 
 ### Closed Issues
 
-A total of 9 issues were closed in this release:
+A total of 14 issues were closed in this release:
 
-[#3798](https://github.com/stdlib-js/stdlib/issues/3798), [#3799](https://github.com/stdlib-js/stdlib/issues/3799), [#3801](https://github.com/stdlib-js/stdlib/issues/3801), [#3802](https://github.com/stdlib-js/stdlib/issues/3802), [#3803](https://github.com/stdlib-js/stdlib/issues/3803), [#3804](https://github.com/stdlib-js/stdlib/issues/3804), [#3806](https://github.com/stdlib-js/stdlib/issues/3806), [#3807](https://github.com/stdlib-js/stdlib/issues/3807), [#3811](https://github.com/stdlib-js/stdlib/issues/3811)
+[#3798](https://github.com/stdlib-js/stdlib/issues/3798), [#3799](https://github.com/stdlib-js/stdlib/issues/3799), [#3800](https://github.com/stdlib-js/stdlib/issues/3800), [#3801](https://github.com/stdlib-js/stdlib/issues/3801), [#3802](https://github.com/stdlib-js/stdlib/issues/3802), [#3803](https://github.com/stdlib-js/stdlib/issues/3803), [#3804](https://github.com/stdlib-js/stdlib/issues/3804), [#3805](https://github.com/stdlib-js/stdlib/issues/3805), [#3806](https://github.com/stdlib-js/stdlib/issues/3806), [#3807](https://github.com/stdlib-js/stdlib/issues/3807), [#3808](https://github.com/stdlib-js/stdlib/issues/3808), [#3809](https://github.com/stdlib-js/stdlib/issues/3809), [#3810](https://github.com/stdlib-js/stdlib/issues/3810), [#3811](https://github.com/stdlib-js/stdlib/issues/3811)
 
 </section>
 
@@ -42,6 +58,29 @@ A total of 9 issues were closed in this release:
 
 <details>
 
+-   [`776887e`](https://github.com/stdlib-js/stdlib/commit/776887e9577ae2402fd69c97328cb864811bd120) - **docs:** update annotation values _(by Philipp Burckhardt)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
+-   [`5c0a9df`](https://github.com/stdlib-js/stdlib/commit/5c0a9df7ce9e03e36ea29d89b8f2852a4b0c3e3c) - **style:** remove empty lines [(#7795)](https://github.com/stdlib-js/stdlib/pull/7795) _(by stdlib-bot)_
+-   [`c698e73`](https://github.com/stdlib-js/stdlib/commit/c698e73a6365ec5d828861bb26a6e3bb74fb1af8) - **chore:** add missing eps dependency to benchmark and examples configs _(by Philipp Burckhardt)_
+-   [`6aeb7d0`](https://github.com/stdlib-js/stdlib/commit/6aeb7d0058535c3e7cacb2a66eed69e6806af479) - **test:** pass in opts to skip if addon is not available _(by Philipp Burckhardt)_
+-   [`a4ce77e`](https://github.com/stdlib-js/stdlib/commit/a4ce77efe910c9398e75b767fb81e786a3a04cc0) - **test:** pass in opts to skip if addon is not available _(by Philipp Burckhardt)_
+-   [`fd9994f`](https://github.com/stdlib-js/stdlib/commit/fd9994fd26cb5d2e69203bae3afdb89ec278d11b) - **feat:** add C implementation for `@stdlib/stats-base/dists/rayleigh/mgf` [(#4298)](https://github.com/stdlib-js/stdlib/pull/4298) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
+-   [`ccb1a1b`](https://github.com/stdlib-js/stdlib/commit/ccb1a1b90f0301677ca0a901e93b3b3ea7abfe4c) - **docs:** update `stats/base/dists/rayleigh` examples to use Greek symbols _(by Philipp Burckhardt)_
+-   [`25e64ce`](https://github.com/stdlib-js/stdlib/commit/25e64cec268879ede40f3b76fccebb78c7945427) - **docs:** remove extra empty line [(#7430)](https://github.com/stdlib-js/stdlib/pull/7430) _(by stdlib-bot)_
+-   [`541c34e`](https://github.com/stdlib-js/stdlib/commit/541c34e7613e29e855b192a62f4fea0368c362ed) - **fix:** remove unused `pi` and `eps` dependencies from `rayleigh/mode` manifest _(by Philipp Burckhardt)_
+-   [`48dd346`](https://github.com/stdlib-js/stdlib/commit/48dd346fb6e276f9132a3c91451a94469fcad5bb) - **docs:** update related packages sections [(#7420)](https://github.com/stdlib-js/stdlib/pull/7420) _(by stdlib-bot)_
+-   [`b5bffa7`](https://github.com/stdlib-js/stdlib/commit/b5bffa72ea42e7e856290c53c493650379487888) - **test:** align test descriptions between main and native test files _(by Philipp Burckhardt)_
+-   [`ae5f230`](https://github.com/stdlib-js/stdlib/commit/ae5f2304c8b5e190e263c032ec1423ecf34e3b22) - **bench:** fix value generation _(by Athan Reines)_
+-   [`7165023`](https://github.com/stdlib-js/stdlib/commit/71650232e0a0f0cc55ba1d48ca40501cdeb90e36) - **feat:** add C implementation for `@stdlib/stats-base/dists/rayleigh/quantile` [(#4333)](https://github.com/stdlib-js/stdlib/pull/4333) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
+-   [`3d16892`](https://github.com/stdlib-js/stdlib/commit/3d168921b5a5a81732a2cd9087a41dbfe25754cb) - **docs:** update related packages sections [(#7369)](https://github.com/stdlib-js/stdlib/pull/7369) _(by stdlib-bot)_
+-   [`927131e`](https://github.com/stdlib-js/stdlib/commit/927131e46570839ed908c96af4da0e5d230300c5) - **feat:** add C implementation for `@stdlib/stats-base/dists/rayleigh/kurtosis` [(#4301)](https://github.com/stdlib-js/stdlib/pull/4301) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
+-   [`7042a3e`](https://github.com/stdlib-js/stdlib/commit/7042a3e7b52b18fbdf77404ca63945cc0a710710) - **feat:** add C implementation for `stats/base/dists/rayleigh/stdev` [(#4314)](https://github.com/stdlib-js/stdlib/pull/4314) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
+-   [`8070167`](https://github.com/stdlib-js/stdlib/commit/80701670fb83e7ef33abec5b14565bef540964a5) - **fix:** use static qualifier for constant _(by Philipp Burckhardt)_
+-   [`84d2f1d`](https://github.com/stdlib-js/stdlib/commit/84d2f1df9be56b3186328c39457894b84712e844) - **feat:** add C implementation for `stats/base/dists/rayleigh/skewness` [(#4290)](https://github.com/stdlib-js/stdlib/pull/4290) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`911e179`](https://github.com/stdlib-js/stdlib/commit/911e1793885aced96a177f2ea54300503b2c2a26) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
 -   [`e61b1de`](https://github.com/stdlib-js/stdlib/commit/e61b1dee3334bacf30d213de5b5f1c7868c0753b) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
@@ -76,9 +115,11 @@ A total of 9 issues were closed in this release:
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
+-   Athan Reines
+-   Dhruv Arvind Singh
 -   Karan Anand
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
