@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import rayleigh from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh@esm/index.mjs';
+import rayleigh from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh@v0.3.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Rayleigh, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh@esm/index.mjs';
+import { Rayleigh, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh@v0.3.1-esm/index.mjs';
 ```
 
 #### rayleigh
@@ -135,7 +135,7 @@ var y = dist.pdf( 0.8 );
 <body>
 <script type="module">
 
-import rayleigh from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh@esm/index.mjs';
+import rayleigh from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh@v0.3.1-esm/index.mjs';
 
 /*
 * The Rayleigh distribution can be used to model wind speeds.
