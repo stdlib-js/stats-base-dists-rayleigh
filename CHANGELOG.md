@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-02)
+## Unreleased (2026-06-06)
 
 <section class="commits">
 
@@ -12,6 +12,11 @@
 
 <details>
 
+-   [`71ca43c`](https://github.com/stdlib-js/stdlib/commit/71ca43c0a9d13a80668f8102a35ac0c5c47537ee) - **docs:** update `stats/base/dists/rayleigh` TypeScript declarations [(#12609)](https://github.com/stdlib-js/stdlib/pull/12609) _(by stdlib-bot)_
+-   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
+-   [`4589958`](https://github.com/stdlib-js/stdlib/commit/45899588d2b46feadb809778e13c156bc9cae2aa) - **refactor:** use floating-point zero literals in `stats/base/dists/rayleigh` [(#12204)](https://github.com/stdlib-js/stdlib/pull/12204) _(by Philipp Burckhardt)_
+-   [`906bab9`](https://github.com/stdlib-js/stdlib/commit/906bab98b9f33bc8c3a92e58eeafa2942990d5ab) - **docs:** propagate lint and example fixes to `math` and `stats` siblings [(#12146)](https://github.com/stdlib-js/stdlib/pull/12146) _(by Philipp Burckhardt)_
+-   [`b517ce1`](https://github.com/stdlib-js/stdlib/commit/b517ce16f647ffe2270573dff57755fe7ba69027) - **docs:** propagate description and example fixes in `stats/base/dists/*` [(#12132)](https://github.com/stdlib-js/stdlib/pull/12132) _(by Philipp Burckhardt)_
 -   [`187e141`](https://github.com/stdlib-js/stdlib/commit/187e141098635f0f2edf0f6f1289e06473ae7fcd) - **chore:** add missing `npm` engine constraint to `stats/base/dists/*/ctor` [(#11686)](https://github.com/stdlib-js/stdlib/pull/11686) _(by Philipp Burckhardt)_
 -   [`f9dbbfa`](https://github.com/stdlib-js/stdlib/commit/f9dbbfaf48e1830f1c9fb685856eac2edba3fac6) - **docs:** fix C examples [(#11138)](https://github.com/stdlib-js/stdlib/pull/11138) _(by anee3, Athan Reines)_
 -   [`5da0471`](https://github.com/stdlib-js/stdlib/commit/5da04714fe812499232e6c818dc1b1a456fe2c1e) - **docs:** correct C return annotation in `stats/base/dists/rayleigh/median` [(#11053)](https://github.com/stdlib-js/stdlib/pull/11053) _(by Om Anand)_
