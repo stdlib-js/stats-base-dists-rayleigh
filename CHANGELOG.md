@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-10)
+## Unreleased (2026-06-12)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,8 @@
 
 <details>
 
+-   [`77195c3`](https://github.com/stdlib-js/stdlib/commit/77195c343d9d48e264a58f8ec213d0df53ca7317) - **docs:** update namespace table of contents [(#12835)](https://github.com/stdlib-js/stdlib/pull/12835) _(by stdlib-bot)_
+-   [`cae5335`](https://github.com/stdlib-js/stdlib/commit/cae53357950b4c389b0020878c268995cd79d222) - **docs:** propagate develop fixes to sibling packages [(#12736)](https://github.com/stdlib-js/stdlib/pull/12736) _(by Philipp Burckhardt)_
 -   [`2b9b521`](https://github.com/stdlib-js/stdlib/commit/2b9b52153789b56fedef02c1f9aa8158929b2730) - **fix:** pass `sigma` to `skewness` in `stats/base/dists/rayleigh/ctor` [(#12721)](https://github.com/stdlib-js/stdlib/pull/12721) _(by Philipp Burckhardt)_
 -   [`437234c`](https://github.com/stdlib-js/stdlib/commit/437234c10dcf8d6024f59f98f18d5d19ecf49026) - **docs:** fix REPL text notes [(#12682)](https://github.com/stdlib-js/stdlib/pull/12682) _(by Philipp Burckhardt)_
 -   [`71ca43c`](https://github.com/stdlib-js/stdlib/commit/71ca43c0a9d13a80668f8102a35ac0c5c47537ee) - **docs:** update `stats/base/dists/rayleigh` TypeScript declarations [(#12609)](https://github.com/stdlib-js/stdlib/pull/12609) _(by stdlib-bot)_
