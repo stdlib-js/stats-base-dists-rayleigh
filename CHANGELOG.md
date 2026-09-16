@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-27)
+## Unreleased (2026-09-16)
 
 <section class="bug-fixes">
 
 ### Bug Fixes
 
+-   [`a344e9b`](https://github.com/stdlib-js/stdlib/commit/a344e9bc324056a291793124bada06d6661592e7) - avoid overflow in `stats/base/dists/rayleigh/quantile` [(#14480)](https://github.com/stdlib-js/stdlib/pull/14480)
 -   [`2b9b521`](https://github.com/stdlib-js/stdlib/commit/2b9b52153789b56fedef02c1f9aa8158929b2730) - pass `sigma` to `skewness` in `stats/base/dists/rayleigh/ctor` [(#12721)](https://github.com/stdlib-js/stdlib/pull/12721)
 
 </section>
@@ -22,6 +23,14 @@
 
 <details>
 
+-   [`d3eaad3`](https://github.com/stdlib-js/stdlib/commit/d3eaad35f633c731ce8112190d74bb2a7577e1e8) - **chore:** clean-up [(#15039)](https://github.com/stdlib-js/stdlib/pull/15039) _(by Philipp Burckhardt, Athan Reines)_
+-   [`8e75216`](https://github.com/stdlib-js/stdlib/commit/8e7521647d69a4e3cb8d1fbd1225d65290764720) - **test:** migrate `stats/base/dists/rayleigh/entropy` to ULP-based assertions [(#15162)](https://github.com/stdlib-js/stdlib/pull/15162) _(by Philipp Burckhardt)_
+-   [`5ef67e5`](https://github.com/stdlib-js/stdlib/commit/5ef67e56a24b5a56dc0d218924f95b10b5a0afc6) - **test:** migrate `stats/base/dists/rayleigh/variance` to ULP-based assertions [(#14754)](https://github.com/stdlib-js/stdlib/pull/14754) _(by Philipp Burckhardt, Athan Reines)_
+-   [`33648e5`](https://github.com/stdlib-js/stdlib/commit/33648e5b76d093782e676d4d8d52a9a21f77cb9d) - **test:** migrate `stats/base/dists/rayleigh/quantile` to ULP-based assertions [(#14722)](https://github.com/stdlib-js/stdlib/pull/14722) _(by Athan Reines)_
+-   [`96d675c`](https://github.com/stdlib-js/stdlib/commit/96d675cb8ca548a559c7fac89d218efe210b22d6) - **test:** migrate `stats/base/dists/rayleigh/cdf` to ULP-based assertions [(#14557)](https://github.com/stdlib-js/stdlib/pull/14557) _(by Philipp Burckhardt)_
+-   [`a344e9b`](https://github.com/stdlib-js/stdlib/commit/a344e9bc324056a291793124bada06d6661592e7) - **fix:** avoid overflow in `stats/base/dists/rayleigh/quantile` [(#14480)](https://github.com/stdlib-js/stdlib/pull/14480) _(by Philipp Burckhardt)_
+-   [`e6e98e6`](https://github.com/stdlib-js/stdlib/commit/e6e98e631584a22bf7f221a3d47c6566c4f4a83f) - **test:** migrate `stats/base/dists/rayleigh/logcdf` to ULP-based assertions [(#14322)](https://github.com/stdlib-js/stdlib/pull/14322) _(by Athan Reines)_
+-   [`23dc0a0`](https://github.com/stdlib-js/stdlib/commit/23dc0a0f5366dc3671dca5451f9f763ed6324018) - **test:** migrate `stats/base/dists/rayleigh/pdf` to ULP-based assertions [(#14267)](https://github.com/stdlib-js/stdlib/pull/14267) _(by Athan Reines)_
 -   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
 -   [`dbe4c82`](https://github.com/stdlib-js/stdlib/commit/dbe4c820ea98330253b4054a5bc9b04b2293415b) - **docs:** propagate fixes to sibling packages [(#12677)](https://github.com/stdlib-js/stdlib/pull/12677) _(by Philipp Burckhardt, Athan Reines)_
 -   [`77195c3`](https://github.com/stdlib-js/stdlib/commit/77195c343d9d48e264a58f8ec213d0df53ca7317) - **docs:** update namespace table of contents [(#12835)](https://github.com/stdlib-js/stdlib/pull/12835) _(by stdlib-bot)_
