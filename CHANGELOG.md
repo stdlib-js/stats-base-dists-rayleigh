@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-16)
+## Unreleased (2026-11-02)
 
 <section class="bug-fixes">
 
@@ -23,6 +23,10 @@
 
 <details>
 
+-   [`d2b4777`](https://github.com/stdlib-js/stdlib/commit/d2b4777be5485be8aac215a3ded0dc5ece0699ed) - **test:** migrate `stats/base/dists/rayleigh/logpdf` to ULP-based assertions [(#16294)](https://github.com/stdlib-js/stdlib/pull/16294) _(by Philipp Burckhardt)_
+-   [`93ff629`](https://github.com/stdlib-js/stdlib/commit/93ff6292ffe553b71e3693be2353ff7e5096898c) - **test:** migrate `stats/base/dists/rayleigh/median` to ULP-based assertions [(#15971)](https://github.com/stdlib-js/stdlib/pull/15971) _(by Athan Reines)_
+-   [`fb22302`](https://github.com/stdlib-js/stdlib/commit/fb22302cd23bfc9edab5e17d428849384b79cf6d) - **test:** migrate `stats/base/dists/rayleigh/logpdf` to ULP-based assertions [(#15409)](https://github.com/stdlib-js/stdlib/pull/15409) _(by Aryan kumar, Athan Reines)_
+-   [`fd8f8f5`](https://github.com/stdlib-js/stdlib/commit/fd8f8f5b1f5e200077641b2cf725263155136368) - **test:** migrate `stats/base/dists/rayleigh/stdev` to ULP-based assertions [(#15316)](https://github.com/stdlib-js/stdlib/pull/15316) _(by Athan Reines)_
 -   [`d3eaad3`](https://github.com/stdlib-js/stdlib/commit/d3eaad35f633c731ce8112190d74bb2a7577e1e8) - **chore:** clean-up [(#15039)](https://github.com/stdlib-js/stdlib/pull/15039) _(by Philipp Burckhardt, Athan Reines)_
 -   [`8e75216`](https://github.com/stdlib-js/stdlib/commit/8e7521647d69a4e3cb8d1fbd1225d65290764720) - **test:** migrate `stats/base/dists/rayleigh/entropy` to ULP-based assertions [(#15162)](https://github.com/stdlib-js/stdlib/pull/15162) _(by Philipp Burckhardt)_
 -   [`5ef67e5`](https://github.com/stdlib-js/stdlib/commit/5ef67e56a24b5a56dc0d218924f95b10b5a0afc6) - **test:** migrate `stats/base/dists/rayleigh/variance` to ULP-based assertions [(#14754)](https://github.com/stdlib-js/stdlib/pull/14754) _(by Philipp Burckhardt, Athan Reines)_
@@ -58,8 +62,9 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
+-   Aryan kumar
 -   Athan Reines
 -   Om Anand
 -   Philipp Burckhardt
